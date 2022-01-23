@@ -1,0 +1,1 @@
+Skaitliskā integrēšana
