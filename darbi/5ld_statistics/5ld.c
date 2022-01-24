@@ -34,13 +34,13 @@ for (int i=1; i<l; i++)
          ++count;
       }
       else
-      { // now this is a different number
+      { 
             if (count > countMode) 
             {
-                  countMode = count; // mode is the biggest ocurrences
+                  countMode = count; 
                   mode = number;
             }
-           count = 1; // reset count for the new number
+           count = 1; 
            number = s[i];
   }
 }
